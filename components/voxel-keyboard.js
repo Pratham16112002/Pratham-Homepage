@@ -14,7 +14,7 @@ const VoxelDog = () => {
   const refRenderer = useRef()
   const urlDogGLB =
     (process.env.NODE_ENV === 'production'
-      ? 'https://craftzdog.global.ssl.fastly.net/homepage'
+      ? 'https://pratham-homepage.vercel.app/'
       : '') + '/keyboard.glb'
 
   const handleWindowResize = useCallback(() => {
