@@ -1,0 +1,32 @@
+{
+  "name": "pratham_porfolio",
+  "version": "1.0.0",
+  "description": "Pratham's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write",
+    "lint": "next lint"
+  },
+  "author": "Pratham Dhiman<hi@hr26>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-icons/all-files": "^4.1.0",
+    "D": "^1.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^13.4.12",
+    "framer-motion": "^10.15.0",
+    "grommet-icons": "^4.11.0",
+    "next": "^13.4.12",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "three": "^0.155.0"
+  }
+}
