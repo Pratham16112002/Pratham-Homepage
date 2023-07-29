@@ -13,7 +13,7 @@ const VoxelDog = () => {
   const refRenderer = useRef()
   const urlDogGLB =
     (process.env.NODE_ENV === 'production'
-      ? 'https://pratham-homepage.vercel.app/'
+      ? 'https://pratham-homepage.vercel.app'
       : '') + '/keyboard.glb'
 
   const handleWindowResize = useCallback(() => {
