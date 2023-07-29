@@ -79,7 +79,7 @@ const Pages = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Completed Senior Secondary Education in DPSMK.
+            Completed Senior Secondary Education in DPS MK.
           </BioSection>
           <BioSection>
             <BioYear>2020 to present</BioYear>
@@ -90,9 +90,7 @@ const Pages = () => {
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>
-            Gaming, Movies , Badminton, CyberSecurity, Development
-          </Paragraph>
+          <Paragraph>Gaming, Movies , CyberSecurity, Development</Paragraph>
         </Section>
       </Container>
     </Layout>

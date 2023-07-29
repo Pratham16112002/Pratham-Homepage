@@ -3,7 +3,7 @@ import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../navbar'
 import VoxelDog from '../voxel-keyboard'
 
-const Main = ({ children, router }) => {
+const Main = ({ children }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
