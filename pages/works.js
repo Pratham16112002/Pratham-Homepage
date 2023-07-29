@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import HiChathumbnail from '../public/images/Wee-chat.png'
+import HiChathumbnail from '../public/images/Wee-Chat.png'
 import HiveChathumbnail from '../public/images/Hive-Chat-App.png'
 import MinorThumbnail from '../public/images/Minor.png'
 import LoadingThumbnail from '../public/images/Loading.png'
