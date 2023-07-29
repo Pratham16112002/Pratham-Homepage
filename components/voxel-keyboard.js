@@ -11,10 +11,10 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = 'https://pratham-homepage.vercel.app/keyboard.glb'
-  // (process.env.NODE_ENV === 'production'
-  //   ? 'https://pratham-homepage.vercel.app/'
-  //   : '') + '/keyboard.glb'
+  const urlDogGLB =
+    (process.env.NODE_ENV === 'production'
+      ? 'https://pratham-homepage.vercel.app/'
+      : '') + '/keyboard.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
