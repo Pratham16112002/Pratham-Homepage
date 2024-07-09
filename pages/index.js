@@ -23,14 +23,14 @@ const Pages = () => {
           mb={6}
           align="center"
         >
-          Hello , I am a full stack developer based in india!
+          Hello , I am a developer based in india!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Pratham Dhiman
             </Heading>
-            <p>Developer / CyberSecurity Enthusiast</p>
+            <p>MERN Developer | React Native Development </p>
           </Box>
           <Box
             flexShrink={0}
@@ -43,7 +43,8 @@ const Pages = () => {
               borderWidth={2}
               boxSize="150px"
               borderStyle="solid"
-              display="inline-block"
+              display="ruby"
+              width={'auto'}
               borderRadius="full"
               src="/images/pratham.jpg"
               alt="Profile Image"
@@ -75,22 +76,23 @@ const Pages = () => {
           </Heading>
           <BioSection>
             <BioYear>2002</BioYear>
-            Born in Chandigarh (चंडीगढ़) , India.
+            Born in Chandigarh, India.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
             Completed Senior Secondary Education in DPS MK.
           </BioSection>
           <BioSection>
-            <BioYear>2020 to present</BioYear>
-            Pursuing Bachelor Degree at Manipal University Jaipur
+            <BioYear>2024</BioYear>
+            Bachelor Degree in Information Technology at Manipal University
+            Jaipur
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>Gaming, Movies , CyberSecurity, Development</Paragraph>
+          <Paragraph>Gaming, Movies, Development</Paragraph>
         </Section>
       </Container>
     </Layout>

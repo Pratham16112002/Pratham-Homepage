@@ -20,6 +20,7 @@ import ThemeToggleButton from './theme-toggle-button'
 import { Github } from 'grommet-icons'
 import { LinkedinOption } from 'grommet-icons'
 import { Instagram } from 'grommet-icons'
+import { User } from 'grommet-icons'
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
@@ -116,6 +117,16 @@ const Navbar = props => {
           >
             <Instagram size="small" />
             Instagram
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://drive.google.com/file/d/1POPtmqAjWhs4CBd7SPOlD5rXRz484rU6/view?usp=sharing"
+            path={path}
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <User size="small" /> Resume
           </LinkItem>
         </Stack>
 
