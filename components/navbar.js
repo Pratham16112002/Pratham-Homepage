@@ -121,6 +121,7 @@ const Navbar = props => {
           <LinkItem
             target="_blank"
             href="https://drive.google.com/file/d/1POPtmqAjWhs4CBd7SPOlD5rXRz484rU6/view?usp=sharing"
+            display="inline-flex"
             path={path}
             alignItems="center"
             style={{ gap: 4 }}
